@@ -1,0 +1,247 @@
+
+@media (max-width:990px) {
+  #icon{
+    float: right;
+  }
+}
+
+/*Fruits and vegetables*/
+.coll-3 img{
+    width: 99%;
+    height: 170px;
+    border-radius: 10px;
+}
+.coll-3{
+    border: 1px solid rgb(218, 211, 211);
+    width: 300px;
+    height: 310px;  
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(218, 211, 211);
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(212, 208, 208);
+
+} 
+.roww{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center; 
+    position: relative;
+    top: 80px;
+}
+.coll-3 button{
+    padding: 5px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (min-width:375px) and (max-width:600px){
+    .roww{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .coll-3{
+        margin: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+
+    }
+}
+
+@media (min-width:601px) and (max-width:900px){
+    .roww{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .coll-3{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:901px) and (max-width:1000px){
+    .roww{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .coll-3{
+        margin: 0 auto;
+        margin: 10px;
+    }
+
+}
+
+
+
+
+
+/*home styles*/
+.homecolumn{
+    border: 1px solid  rgb(214, 214, 221);
+    width: 400px;
+    height: 350px;  
+    margin: 6px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(219, 215, 215);
+}
+
+.homepage{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+}
+.homecolumn {
+    position: relative; 
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .homecolumn a{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: rgb(58, 58, 218);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .homecolumn img {
+    width: 100%; 
+    height: 80%; 
+    border-radius: 10px;
+    padding-bottom: 30px;
+  }
+
+  @media (min-width:375px) and (max-width:650px){
+    .homepage{
+        display: grid;
+        grid-template-columns: auto ;
+        
+    }
+    .homecolumn{
+        margin: 0 auto;
+        width: 70%; 
+    }
+}
+.headd{
+  position: relative;
+  margin-top: 40px; 
+  /* border: 1px solid rgb(219, 213, 213);
+  background-color: rgb(209, 206, 206); */
+  padding-left: 20px; 
+}
+.headd h1{
+  color: rgb(0, 0, 0);
+}
+
+
+
+/* sign in */
+
+
+.signin input{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 250px;
+}
+.signin input:focus{
+  outline: none;
+}
+.signin{
+  border: 1px solid rgb(226, 221, 221);
+  width: 340px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(159, 159, 167);
+  
+}
+.signin h1{
+  color: blue;
+  text-transform: uppercase;
+  margin-top: 15px;
+
+}
+.signin button{
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 260px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/*login*/
+
+.login{
+  border: 1px solid black;
+  width: 350px;
+  height: 430px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 1px 1px 10px rgb(159, 159, 167);
+  border: 1px solid rgb(219, 213, 213);
+  margin-top: 100px;
+  border-radius: 10px;
+  
+}
+.login input{
+  display: flex;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  width: 250px;
+  border: 1px solid rgb(196, 189, 189);
+}
+
+.login button{
+  color: white;
+  background-color: blue;
+  font-size: 16px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 260px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.forget p{
+  margin-top: 3px;
+  margin-left: 140px;
+}
+.social img{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.login h1{
+  color: blue;
+  margin-top: 20px;
+}
+.social {
+  margin-top: 15px;
+}
+#do{
+  margin-top: 10px;
+}
